@@ -1,1 +1,21 @@
-Based on all the plots, several key patterns emerge. The correlation heatmap initially highlighted the strongest linear relationships: a significant negative correlation between 2m temperature (t2m) and relative humidity (rh) at -0.60, and a strong positive one between wind speed (ws) and the eastward wind component (u10) at +0.64. However, the scatter plots provide crucial context. The relationship between total precipitation (tp) and relative humidity (rh) is visually the most important; it's a strong, non-linear relationship where precipitation is virtually zero until rh crosses a threshold of about 75%, after which the potential for heavy rain increases sharply. This confirms rh as a key predictor. Furthermore, the scatter plots for tp versus t2m and tp versus msl explain their low linear correlation values: the relationships are non-linear, with the heaviest precipitation occurring within specific "optimal" bands of temperature and pressure, not at the extremes. The wind components (u10, v10) show very diffuse relationships with precipitation, suggesting that while overall wind speed might play a role, wind direction alone is not a strong predictor of rainfall amount.
+### Strong correlations, noticeable or interesting patterns
+
+#### 1. Strongest linear relationships (from the heatmap):
+
+A significant negative correlation exists between 2m air temperature (t2m) and relative humidity (rh) at approximately -0.60, reflecting the well-known physical relationship that warmer air holds more moisture and thus tends to have lower relative humidity.
+
+A strong positive correlation is seen between wind speed (ws) and the eastward wind component (u10) at about +0.64, which is expected since ws is derived from u10 and v10.
+
+#### 2. Target variable tp (precipitation) and predictors:
+
+The relationship between precipitation and relative humidity (rh) is visually the most important. Precipitation is almost absent until rh crosses a threshold of around 75%, after which the likelihood and magnitude of rainfall increase sharply. This makes rh the most critical predictor in the dataset.
+
+Both temperature (t2m) and mean sea level pressure (msl) show non-linear relationships with precipitation. The heaviest rainfall is concentrated within specific “optimal” bands (approx. t2m 24–27 °C, msl 100500–101250 Pa), rather than at extreme values.
+
+Sea surface temperature (sst) exhibits a bimodal distribution but does not show a clear direct relationship with precipitation in the scatter plots.
+
+#### 3. Wind components:
+
+The individual components (u10 and v10) show diffuse scatterplots against precipitation, suggesting that wind direction alone has little predictive power for rainfall intensity.
+
+However, overall wind speed (ws) may play a role: higher values are associated with a greater possibility of rainfall, but the relationship is weak and highly scattered (heteroscedastic).
