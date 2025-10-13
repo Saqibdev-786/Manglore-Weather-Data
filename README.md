@@ -49,3 +49,11 @@ The GUI allows users to:
   - Tkinter (GUI)
 
 
+## App GUI:
+<img width="742" height="906" alt="image" src="https://github.com/user-attachments/assets/b40af8d7-2f1f-4ca3-a5b4-0c71e02d7a56" />
+I have used sliders to take the input from the user. A button to click when you to predict rainfall on your given data.
+
+## Model:
+I have used Poly Ridge Regression in this.
+
+
